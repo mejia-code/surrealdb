@@ -8,7 +8,7 @@ Why SurreaDB? and not another?
 <!-- quick mkdir           -->
 <!-- ===================== -->
 
-### quick mkdir
+## quick mkdir
 
 ![make surrealDB dir](images/mkdir.png)
 
@@ -17,9 +17,11 @@ Why SurreaDB? and not another?
  hosted code to github     -->
 <!-- ===================== -->
 
-### quick add locally hosted code to github
+## quick add locally hosted code to github
 
 [github docs](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
+
+> <sup>👉 👀 note:</sup> ![github docs](images/mkrepo.png)
 
 # instal surrealdb
 
