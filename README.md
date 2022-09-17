@@ -8,32 +8,26 @@ Why SurreaDB? and not another?
 <!-- quick mkdir           -->
 <!-- ===================== -->
 
+### quick mkdir
+
 ![make surrealDB dir](images/mkdir.png)
 
 <!-- ===================== -->
-<!-- git init              -->
+<!-- quick add locally
+ hosted code to github     -->
 <!-- ===================== -->
 
-```bash
-git init
-```
+### quick add locally hosted code to github
 
-<!-- ===================== -->
-<!-- commit github main    -->
-<!-- ===================== -->
+[github docs](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
 
-````bash
-git add .
-git commit -m "first commit"
-git branch -M main # rename master to main (optional, good practice)
-
-
+# instal surrealdb
 
 for macOS
 
 ```bash
 brew install surrealdb/tap/surrealdb
-````
+```
 
 ```bash
 surreal help
@@ -45,6 +39,10 @@ surreal help
 # Terminology
 
 Server side libraries vs client-side library
+
+```
+
+```
 
 ```
 

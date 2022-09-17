@@ -14,3 +14,62 @@ change master to main (optional, good practice)
 
 1.a cd `surrealdb` and `code .` to open new directory in VSCode
 in vscode, shift + ctrl g to open
+
+<!-- ============= -->
+
+### quick
+
+```bash
+git init -b main
+```
+
+<!-- ===================== -->
+<!-- view changes          -->
+<!-- ===================== -->
+
+to view changes to be commited
+
+```bash
+git status
+```
+
+<!-- ===================== -->
+<!-- stage and commint     -->
+<!-- ===================== -->
+
+### stage and commint
+
+```bash
+git add .
+```
+
+`.` is for all files in the current directory
+
+```bash
+git commit -m "first commit"
+```
+
+`-m` is for message
+
+<!-- ===================== -->
+<!-- rename branch to main -->
+<!-- ===================== -->
+
+### rename branch to main (optional)
+
+````bash
+
+```bash
+git branch -M main
+````
+
+`#-M` is for force rename
+
+<!-- ===================== -->
+<!-- publishg to github as surrealdb as a public repo
+and MIT license            -->
+<!-- ===================== -->
+
+```bash
+gh repo create surrealdb --public --license mit
+```
