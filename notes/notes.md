@@ -73,3 +73,9 @@ and MIT license            -->
 ```bash
 gh repo create surrealdb --public --license mit
 ```
+
+<!-- ===================== -->
+
+> <sup>👉 👀 note:</sup> ![github docs](/images/mkrepo.png) <sup>is this thrue?</sup>
+
+<!-- ===================== -->
