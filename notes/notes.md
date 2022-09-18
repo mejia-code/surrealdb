@@ -219,3 +219,5 @@ git commit -m "a commit message"
 #push to origin, main branch.
 git push -u origin main
 ```
+
+[crate surrealdb](https://docs.rs/surrealdb/1.0.0-beta.7/surrealdb/)

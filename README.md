@@ -1,25 +1,26 @@
 # SurrealDB
 
-[why](https://surrealdb.com/why) SurreaDB? and not another?
+most compeling resource to understand the value of SurrealDB :
 
-[#100SecondsOfCode](https://www.youtube.com/watch?v=C7WFwgDRStM) about SurrealDB by Fireship
+> [why](https://surrealdb.com/why) Surreal?
+
+> [Surreal? A closer look at NewSQL Relational Data](https://www.youtube.com/watch?v=C7WFwgDRStM) (2:46 min)
+
+> [Crate surrealdb](https://docs.rs/surrealdb/1.0.0-beta.7/surrealdb/) > ![crate surrealdb](images/cratesurrealdb.png)
 
 ![SurrealDB](images/intro.png)
 
-# Start
+# START TUTORIAL
 
-<!-- ===================== -->
-<!-- quick mkdir           -->
-<!-- ===================== -->
+[100s video](https://www.youtube.com/watch?v=C7WFwgDRStM) about SurrealDB
 
-## quick mkdir
+[tutorial](https://www.youtube.com/watch?v=LCAIkx1p1k0)
 
-![make surrealdb dir](images/mkdir.png)
+# install SurrealDB
 
-<!-- ===================== -->
-<!-- quick add locally
- hosted code to github     -->
-<!-- ===================== -->
+![surreal install](images/install.png)
+
+[install](https://surrealdb.com/install)
 
 ## quick add code to github
 
@@ -47,7 +48,7 @@ check if installed
 surreal help
 ```
 
-![surreal help](images/installok.png)
+![surreal help](/images/installok.png)
 
 ## quick source control
 
@@ -65,73 +66,23 @@ git commit -m "a commit message"
 git push -u origin main
 ```
 
-# star the server
-
-```bash
-surreal start --log debug --user root --pass root memory
-```
-
-![surreal start](images/start.png)
-
-# insert and query data using the SurrealQL REST endpoint
-
-Surreal queries are submitted as `HHTP POST`
-
-`HTTP POST` is the most widely supported method of submitting data to a web server
-
-The SurrealQL REST endpoint by default is
-
-[http://localhost:8080/surrealql
-](http://localhost:8080/surrealql)
-
-## connect to SurrealDB
-
-````bash
-## insert data
-
-use `cURL` on the command-line.
-
-```bash
-DATA="INFO FOR DB;"
-curl --request POST \
-	--header "Content-Type: application/json" \
-	--header "NS: test" \
-    # header "NS: test" means use the test namespace
-	--header "DB: test" \ # header "DB: test" means use the test database
-	--user "root:root" \ #root:root is the default user and password
-	--data "${DATA}" \
-    # data is the data to insert
-	http://localhost:8000/sql
-````
-
-![surreal insert](images/insertdata.png)
-
-# inserting data shcemaless mode
-
-> ["By default, SurrealDB doesn't need to have tables or fields defined before inserting data. Instead the database can be queried in schemaless mode, and tables are created ad hoc."](https://surrealdb.com/docs/start#inserting-data)
-
-> SurrealDB allows you to traverse related records efficiently without needing to use JOINs.
-
-# START TUTORIAL
-
-[100s video](https://www.youtube.com/watch?v=C7WFwgDRStM) about SurrealDB
-
-[tutorial](https://www.youtube.com/watch?v=LCAIkx1p1k0)
-
-# install SurrealDB
-
-![surreal install](images/install.png)
-
-[install](https://surrealdb.com/install)
-
 # runing using Rest API
 
 add Thunderl Client to VSCode
 ![thunderl client](images/thunderclient.png)
 
-# run the SurrealDB command with a root user
+# star the server
 
-    ```bash
-    surreal start --log debug --user root --pass root memory
+run the SurrealDB command with a root user
+
+```bash
+surreal start --log debug --user root --pass root memory
+```
 
 ![surreal start](images/startsurreal.png)
+
+![cmd](images/cmdthunder.png)
+
+![new request](images/newrequest.png)
+
+[HTTP: localhost:8000/sql](http://localhost:8000/sql)
